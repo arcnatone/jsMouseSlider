@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* Slide UI
+==============================*/
+.mouse-slide{overflow:hidden; position:relative; width:100%;}
+.mouse-slide .slide-list{position:relative; text-align:center; white-space:nowrap;}
+.mouse-slide .slide-list:after{display:block; content:''; clear:both;}
+.mouse-slide .slide-list > li{overflow:hidden; float:left; width:150px; height:150px;}
+.mouse-slide .slide-list > li:first-child{margin-left:0;}
+.mouse-slide .slide-list > li img{height:100%;}
